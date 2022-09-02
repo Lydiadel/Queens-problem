@@ -69,5 +69,8 @@ def Inicio():
    if (queenProblem(board,0,n) == False):
        print("Solution does not exist\n")
        return False
+   print ("Solution: ")
+   printBoard(board,n)
+   print("\n")
    
 Inicio()
