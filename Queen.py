@@ -1,3 +1,12 @@
+
+
+# Function to print the board
+def printBoard(board, N):
+    for i in range(N):
+        for j in range(N):
+            print(board[i][j], end= " ")
+        print() 
+ 
 def createBoard(n):
    board = [[0 for x in range(n)] for y in range(n)]
    return board
@@ -12,6 +21,7 @@ def Inicio():
    print(f"Number of Queens: {n}")
    board=createBoard(n)
    print("")
+   
    
    
 Inicio()
